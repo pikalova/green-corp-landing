@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    position: sticky;
+    position: sticky !important;
     z-index: 1;
     top: 0;
     background-color: #fff;
@@ -170,6 +170,13 @@ button:hover{
     height: 30px;
 }
 
+.orb-canvas{
+    position: absolute;
+    top:0;
+    right: 0;
+    height: 100%;
+}
+
 .about__image {
     width: 500px;
 }
@@ -186,6 +193,7 @@ button:hover{
 }
 
 .about {
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
